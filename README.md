@@ -17,9 +17,20 @@ A full-stack job application tracker with JWT authentication, CRUD, analytics, a
 
 ---
 
-## Local Demo (Recruiter-Friendly)
+## Local Demo 
 
 ### 1) Start PostgreSQL (Docker)
 From repo root:
 ```bash
 docker compose up -d
+
+cd backend
+python -m venv venv
+
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+# source venv/bin/activate
+
+pip install -r requirements.txt
+uvicorn app.main:app --reload
