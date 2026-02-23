@@ -277,3 +277,6 @@ Full Stack & Backend Developer
 📄 License
 
 This project is for educational and portfolio purposes.
+
+
+./fullapp.pdf
