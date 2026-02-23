@@ -33,4 +33,10 @@ venv\Scripts\activate
 # source venv/bin/activate
 
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload ```
+
+```bash
+
+cd frontend
+npm install
+npm run dev
